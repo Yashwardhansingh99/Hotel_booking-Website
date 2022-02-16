@@ -8,14 +8,21 @@
   <title>payment</title>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles/payment.css">
-  <link rel="stylesheet" href="styles/common.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  
 </head>
 
 <body>
   <div>
     <header id="header">
-
+      <div class="header">
+        <!--Header div-->
+        <img src="assests/images/logo.png" alt="logo" id="logo"  />
+        <!--login to open in new page-->
+        
+        <span class="loginStyle">
+          <button  type="button" class="btn btn-light btn-sm"  onclick="logout()" data-toggle="modal" data-target="#login" id="logout-button" style="padding: -0.625rem .75rem;">LOGIN</button>
+      </span><br/>
+      </div>
     </header>
     <div class="mainDiv">
 
@@ -51,13 +58,26 @@
       </div>
     </div>
     <footer id="footer">
-
+      <!--Footer div-->
+      <!--first section of Footer div-->
+      <span class="contactStyle"><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#example-modal-signup" id="sign-up-button" >Contact Us</button>
+      </span>
+      <!--second section of Footer div-->
+      <div id="social">
+      <a href="https://www.facebook.com" target="_blank"><img class="social-icons" src="assests/images/facebook.png" alt="facebook" /></a>
+      <a href="https://www.instagram.com" target="_blank"><img class="social-icons" src="assests/images/instagram.png" alt="instagram" /></a>
+      <a href="https://twitter.com" target="_blank" ><img class="social-icons" src="assests/images/twitter.png" alt="twitter" /></a>
+    </div>
+      <br />
+      <!--third section of Footer div-->
+      <p class="copyRight">&COPY; 2020 ROOM SEARCH PVT. LTD.</p>
     </footer>
 
     <div id="loginAndContact">
-
+      
     </div>
   </div>
+
 
 </body>
 
